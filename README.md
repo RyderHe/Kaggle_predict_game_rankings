@@ -1,18 +1,35 @@
 # Kaggle_predict_game_rankings
- Each entry is labeled according to its final average score in the "overall" category (from 1 to 5 stars, rounded to the nearest integer, or 0 if the game did not receive enough ratings to officially rank). This is a classification problem with 6 (unbalanced) classes.
- 
- 
-using NN model
+
+Each entry is labeled according to its final average score in the "overall" category (from 1 to 5 stars, rounded to the nearest integer, or 0 if the game did not receive enough ratings to officially rank). This is a classification problem with 6 (unbalanced) classes.
+  
+I used two methods predict the result. One is NN model, and another one is Random Forest.
+
+1. NN model (scipt: "nn.ipynb", leaderboard public 0.93880)
 
 Libraries need to install in your training environmemt: 
 
-- tensorflow 
+- tensorflow 1.12.0
 
-- keras
+- keras 2.2.4
 
-- sklearn
+- sklearn 0.23.1
 
-- numpy
+- numpy 1.18.5
 
-- pandas
+- pandas 1.0.5
 
+- random
+
+- csv
+
+1. Random Forest (scipt: "random_forest.ipynb", leaderboard public 0.93207)
+
+Libraries need to install in your training environmemt: 
+
+- sklearn 0.23.1
+
+- numpy 1.18.5
+
+- pandas 1.0.5
+
+- random
